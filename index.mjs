@@ -4,6 +4,7 @@ const basePath = process.cwd()
 const app = express()
 
 app.use('/client', express.static(path.join(basePath, 'client')))
+app.use('/node_modules', express.static(path.join(basePath, 'node_modules')))
 // app.use('/client', express.static(path.join(__dirname, 'client'))) // __withES6 modules is an issue
 
 app.get('/', (req, res) => res.sendFile(path.join(basePath, 'index.html')))
