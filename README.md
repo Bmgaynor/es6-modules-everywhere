@@ -5,9 +5,12 @@ Experiment to import es6 modules into the browser and use modules in node.
 ## Running 
 
 ```bash
+# production
 npm start
 
-nodemon --watch . -- --experimental-modules index.mjs
+
+# dev
+npm run dev
 ```
 
 

@@ -1,3 +1,5 @@
-import entry from './entry.js'
 
-entry()
+
+import addHeading from './addHeading.js'
+
+addHeading()
